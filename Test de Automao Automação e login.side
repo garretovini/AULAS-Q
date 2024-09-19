@@ -1,0 +1,175 @@
+{
+  "id": "860f4538-7a9d-4e34-ab39-47d08e948395",
+  "version": "2.0",
+  "name": "Test de Automação 2",
+  "url": "https://fecaf.brightspace.com",
+  "tests": [{
+    "id": "a529c4d3-af93-4d7c-a441-307465612618",
+    "name": "Teste Formulário 2",
+    "commands": [{
+      "id": "e7c53b56-2956-4bdd-bab8-fca58485389c",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/e/1FAIpQLSfC1XrHh2-yVBmw-F8E2rR6gU4LM44qzBGQQoQOstcBYpjyBQ/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3d54879-9415-485c-a4f4-1e048aee0452",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1312ac56-5d0b-4495-b8db-a27b9c6f6b43",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i11 .AB7Lab",
+      "targets": [
+        ["css=#i11 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i11']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a42ad0a7-a7f5-4fc1-9ecb-f5666d5a755d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i27 .AB7Lab",
+      "targets": [
+        ["css=#i27 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i27']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/span/div/div[3]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a6458c-6a88-4369-945d-6a762da81822",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i43 .AB7Lab",
+      "targets": [
+        ["css=#i43 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i43']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/span/div/div[3]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fad87f4-fdcc-46e9-b8d9-f098bbfc66bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i59 .AB7Lab",
+      "targets": [
+        ["css=#i59 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i59']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/span/div/div[3]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a895fd-bfa1-467b-8ec0-091b4fb86853",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i75 .AB7Lab",
+      "targets": [
+        ["css=#i75 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i75']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/span/div/div[3]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc8a8e26-48e7-4f51-8da0-e7a2be3e43dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Y5sE8d .NPEfkd",
+      "targets": [
+        ["css=.Y5sE8d .NPEfkd", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div[2]/div/div[3]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "03198dbf-6f1c-4e81-96e7-b4d1b21fc056",
+    "name": "Teste Login",
+    "commands": [{
+      "id": "8e002395-180a-4b22-aa5b-57ea4be6a8ca",
+      "comment": "",
+      "command": "open",
+      "target": "/d2l/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af7a3f0b-95cb-4831-aabf-8ea22807034a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f62d2a01-88a0-4609-9143-0fce3414f0c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "98284"
+    }, {
+      "id": "2d32b8a2-f91b-4e11-a299-f11f9e69deb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dfccf0d-7b4b-4194-b362-68bfd20fdde0",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "17072004"
+    }, {
+      "id": "a0ef4424-5a15-44dc-9584-02d0ca54dc71",
+      "comment": "",
+      "command": "click",
+      "target": "id=d2l_1_5_608",
+      "targets": [
+        ["id=d2l_1_5_608", "id"],
+        ["css=#d2l_1_5_608", "css:finder"],
+        ["xpath=//button[@id='d2l_1_5_608']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Fazer Logon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b3585cd0-92c1-4986-8787-b32378bdd885",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://docs.google.com/", "https://fecaf.brightspace.com/"],
+  "plugins": []
+}
